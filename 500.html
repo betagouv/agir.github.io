@@ -1,0 +1,80 @@
+<html>
+    <head>
+     <link rel="stylesheet" href="core.min.css"/>
+     <link rel="stylesheet" href="dsfr.min.css"/>
+     <link rel="icon" href="favicon-32x32.png" />
+     <style>
+        body {
+            display: grid;
+            min-height: 100vh;
+            grid-template-rows: auto 1fr auto;
+        }
+     </style>
+    </head>
+    <body>
+        <header role="banner" class="fr-header" id="header-navigation">
+            <div class="fr-header__body">
+            <div class="fr-container">
+                <div class="fr-header__body-row">
+                <div class="fr-header__brand">
+                    <div class="fr-header__brand-top">
+                        <img alt="" src="logo.svg" />
+                    </div> 
+                </div>
+                <div class="fr-header__tools">
+                    <div class="fr-header__tools-links">
+                    
+                    </div>
+                </div>
+                </div>
+            </div>
+            </div> 
+        </header>
+        
+        <main role="main" id="content">
+            <div class="fr-container">
+                <div class="fr-my-7w fr-mt-md-12w fr-mb-md-10w fr-grid-row fr-grid-row--gutters fr-grid-row--middle fr-grid-row--center">
+                    <div class="fr-py-0 fr-col-12 fr-col-md-6">
+                        <h1>Erreur inattendue</h1>
+                        <p class="fr-text--sm fr-mb-3w">Erreur 500</p>
+                        <p class="fr-text--sm fr-mb-5w">
+                            Désolé, le service rencontre un problème, nous travaillons pour le résoudre le plus rapidement possible.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer v-if="getUtilisateur" class="fr-footer background--white" role="contentinfo" id="footer">
+            <div class="fr-container">
+            <div class="fr-footer__body">
+                <div class="fr-footer__brand">
+                <p class="fr-logo">
+                    République
+                    <br />
+                    française
+                </p>
+                </div>
+            </div>
+            <div class="fr-footer__partners">
+                <p class="fr-footer__partners-title">Nos partenaires</p>
+                <div class="fr-footer__partners-logos">
+                <div class="fr-footer__partners-main">
+                    <ul class="fr-grid-row fr-grid-row--gutters fr-grid-row--middle">
+                    <li class="fr-col">
+                        <img class="fr-footer__logo" src="logo_ademe.png" alt="Agence de la transition écologique à Paris" />
+                    </li>
+                    <li class="fr-col">
+                        <img class="fr-footer__logo" src="logo_fnv.png" alt="France Nation Verte" />
+                    </li>
+                    <li class="fr-col">
+                        <img class="fr-footer__logo" src="logo-betagouvfr.svg" alt="Beta gouv" />
+                    </li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+            </div>
+            </div>
+        </footer>
+    </body>
+</html>
